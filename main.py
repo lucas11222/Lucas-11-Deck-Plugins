@@ -25,6 +25,7 @@ class Plugin:
     # completely removed
     async def _unload(self):
         decky.logger.info("Goodnight World!")
+        decky.logger.info("Bye! - Lucas11")
         pass
 
     # Function called after `_unload` during uninstall, utilize this to clean up processes and other remnants of your

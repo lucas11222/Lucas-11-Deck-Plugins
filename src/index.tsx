@@ -37,13 +37,13 @@ function Content() {
   };
 
   return (
-    <PanelSection title="Panel Section">
+    <PanelSection title="Ma">
       <PanelSectionRow>
         <ButtonItem
           layout="below"
           onClick={onClick}
         >
-          {result ?? "Add two numbers via Python"}
+          {result ?? "Hosting in your deck."}
         </ButtonItem>
       </PanelSectionRow>
       <PanelSectionRow>
@@ -98,7 +98,7 @@ export default definePlugin(() => {
 
   return {
     // The name shown in various decky menus
-    name: "Test Plugin",
+    name: "Lucas11 Deck Extras",
     // The element displayed at the top of your plugin's menu
     titleView: <div className={staticClasses.Title}>Decky Example Plugin</div>,
     // The content of your plugin's menu
